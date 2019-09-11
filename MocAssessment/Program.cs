@@ -68,7 +68,7 @@ namespace MocAssessment
                 else
                 {
                     _guessed = false;
-                }
+                }              
             }
             
             Console.ReadKey();
