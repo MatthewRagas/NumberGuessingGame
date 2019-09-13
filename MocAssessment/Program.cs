@@ -84,16 +84,19 @@ namespace MocAssessment
         //Reassignes the value of the maximum number for the computer to guess.
         public static int GuessHigher(int min)
         {
-            _min = min + 1;
-
+            //Console.WriteLine(_numList[_min] + ", " +  _numList[_max]);
+            _min = min;
+            //Console.WriteLine(_numList[_min] + ", " + _numList[_max]);
             return _min;
         }
 
         //Reassignes the value of the minimum number for the computer to guess.
         public static int GuessLower(int max)
         {
+            //Console.WriteLine(_numList[_min] + ", " + _numList[_max]);
             _max = max - 1;
-            
+            //Console.WriteLine(_numList[_min] + ", " + _numList[_max]);
+
             return _max;
         }
     }
